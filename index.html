@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature DMO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Signature DMO</h1>
+        </header>
+
+        <main>
+            <div class="document-preview">
+                <h2>Aperçu du document</h2>
+                <iframe id="docFrame" src="" frameborder="0"></iframe>
+            </div>
+
+            <div class="signature-pad-container">
+                <h2>Signature Virtuelle</h2>
+                <canvas id="signature-pad" width="600" height="200"></canvas>
+                <button id="clear">Effacer</button>
+            </div>
+        </main>
+
+        <footer>
+            <button id="cancel">Annuler</button>
+            <button id="send">Envoyer</button>
+            <button id="print">Imprimer</button>
+            <button id="download">Télécharger</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
